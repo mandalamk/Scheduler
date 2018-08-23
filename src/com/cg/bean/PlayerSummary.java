@@ -7,6 +7,12 @@ public class PlayerSummary {
 	private Player player;
 	private HashMap<Game,ArrayList<String>> hmPS;
 	
+	public PlayerSummary(Player p)
+	{
+		player = p;
+		hmPS = new HashMap<Game,ArrayList<String>>();
+	}
+	
 	
 	public Player getPlayer() {
 		return player;

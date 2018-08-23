@@ -5,15 +5,19 @@ import java.util.HashMap;
 
 public class DaySummary {
 	
-	private String day;
+	private Day day;
 	private HashMap<Game,ArrayList<Player>> hmDS;
 	
-	DaySummary(String day)
+	public DaySummary(Day day)
 	{
 		this.day = day;
 		hmDS = new HashMap<Game,ArrayList<Player>>();
 	}
 	
+	public DaySummary(Day d) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getDay() {
 		return day;
 	}
